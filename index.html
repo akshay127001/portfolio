@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akshay – Cybersecurity Portfolio</title>
+    <meta name="description" content="Akshay C – Cybersecurity researcher and pentester portfolio" />
+    <meta property="og:title" content="Akshay – Cybersecurity Portfolio" />
+    <meta property="og:description" content="I break things to make them safer — specializing in web app pentesting, OSINT, exploit dev & incident response." />
+    <meta property="og:type" content="website" />
+    <!-- Tailwind via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html { scroll-behavior: smooth; }
+      ::selection { background: rgba(139,92,246,0.35); }
+    </style>
+  </head>
+  <body class="min-h-screen bg-black text-neutral-100">
+    <!-- bg -->
+    <div class="pointer-events-none fixed inset-0 -z-10 opacity-40 blur-3xl bg-gradient-to-br from-indigo-500 via-violet-500 to-fuchsia-500"></div>
+
+    <!-- NAV -->
+    <header class="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-black/50 border-b border-neutral-900">
+      <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+        <a href="#home" class="flex items-center gap-2 font-semibold">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/></svg>
+          Akshay C.
+        </a>
+        <nav class="hidden sm:flex items-center gap-2">
+          <a href="#about" class="px-3 py-2 rounded-xl text-sm border border-transparent hover:border-neutral-800 hover:bg-neutral-900/60">About</a>
+          <a href="#skills" class="px-3 py-2 rounded-xl text-sm border border-transparent hover:border-neutral-800 hover:bg-neutral-900/60">Skills</a>
+          <a href="#projects" class="px-3 py-2 rounded-xl text-sm border border-transparent hover:border-neutral-800 hover:bg-neutral-900/60">Projects</a>
+          <a href="#experience" class="px-3 py-2 rounded-xl text-sm border border-transparent hover:border-neutral-800 hover:bg-neutral-900/60">Experience</a>
+          <a href="#education" class="px-3 py-2 rounded-xl text-sm border border-transparent hover:border-neutral-800 hover:bg-neutral-900/60">Education</a>
+          <a href="#contact" class="px-3 py-2 rounded-xl text-sm border border-transparent hover:border-neutral-800 hover:bg-neutral-900/60">Contact</a>
+        </nav>
+        <a id="resumeBtn" href="#" class="px-3 py-2 rounded-xl text-sm border border-neutral-800 hover:bg-neutral-900/60 flex items-center gap-2">Resume</a>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="max-w-6xl mx-auto px-4 pt-16 pb-10">
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <div>
+          <h1 class="text-3xl sm:text-5xl font-bold tracking-tight">
+            Hi, I'm <span class="text-violet-400">Akshay</span> — Cybersecurity Researcher
+          </h1>
+          <p class="mt-4 text-neutral-300 max-w-xl">
+            I break things to make them safer — specializing in web app pentesting, real-life investigations (OSINT), exploit development and more.
+          </p>
+          <div class="mt-6 flex flex-wrap items-center gap-3">
+            <span class="inline-flex items-center rounded-full border border-neutral-800 bg-neutral-900/40 px-3 py-1 text-sm">Kerala, India</span>
+            <span class="inline-flex items-center rounded-full border border-neutral-800 bg-neutral-900/40 px-3 py-1 text-sm">Available for Internship</span>
+            <span class="inline-flex items-center rounded-full border border-neutral-800 bg-neutral-900/40 px-3 py-1 text-sm">Open to Freelance</span>
+          </div>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a id="githubLink" href="#" class="inline-flex items-center gap-2 rounded-xl border border-neutral-800 px-3 py-2 hover:bg-neutral-900/60">GitHub</a>
+            <a id="linkedinLink" href="#" class="inline-flex items-center gap-2 rounded-xl border border-neutral-800 px-3 py-2 hover:bg-neutral-900/60">LinkedIn</a>
+            <a id="emailLink" href="#" class="inline-flex items-center gap-2 rounded-xl border border-neutral-800 px-3 py-2 hover:bg-neutral-900/60">Email</a>
+          </div>
+        </div>
+        <div class="md:justify-self-end">
+          <div class="relative">
+            <div class="absolute -inset-1 rounded-3xl blur-2xl bg-gradient-to-tr from-indigo-500 via-violet-500 to-fuchsia-500 opacity-30"></div>
+            <div class="relative rounded-3xl border border-neutral-800 bg-neutral-950 p-6">
+              <div class="grid grid-cols-2 gap-3">
+                <div class="rounded-2xl border border-neutral-800 bg-neutral-900/40 p-5">
+                  <div class="font-medium">Cyber Intelligence</div>
+                  <div class="text-sm text-neutral-400">OSINT & investigations</div>
+                </div>
+                <div class="rounded-2xl border border-neutral-800 bg-neutral-900/40 p-5">
+                  <div class="font-medium">CTF & Labs</div>
+                  <div class="text-sm text-neutral-400">Wakanda, Kioptrix-1, MS17-010, PrivEsc…</div>
+                </div>
+                <div class="rounded-2xl border border-neutral-800 bg-neutral-900/40 p-5">
+                  <div class="font-medium">Threat Intel + ML</div>
+                  <div class="text-sm text-neutral-400">Finance-sector LSTM prototype</div>
+                </div>
+                <div class="rounded-2xl border border-neutral-800 bg-neutral-900/40 p-5">
+                  <div class="font-medium">Reporting</div>
+                  <div class="text-sm text-neutral-400">Clear PoC + mitigations</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="scroll-mt-24 py-16 sm:py-24">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="flex items-center gap-3 mb-6">
+          <div class="p-2 rounded-xl bg-neutral-900/60 border border-neutral-800">🔐</div>
+          <h2 class="text-2xl sm:text-3xl font-semibold">About</h2>
+        </div>
+        <div class="grid md:grid-cols-3 gap-5">
+          <div class="rounded-2xl border border-neutral-800 bg-neutral-900/40 p-5 text-neutral-300">
+            Hands-on security enthusiast focused on practical offense/defense.
+          </div>
+          <div class="rounded-2xl border border-neutral-800 bg-neutral-900/40 p-5 text-neutral-300">
+            Interests: IDOR, session management, SQLi payload design, Linux PrivEsc, OSINT → intel.
+          </div>
+          <div class="rounded-2xl border border-neutral-800 bg-neutral-900/40 p-5 text-neutral-300">
+            I play CTFs, keep lab notes, and write reproducible reports.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="scroll-mt-24 py-16 sm:py-24">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="flex items-center gap-3 mb-6">
+          <div class="p-2 rounded-xl bg-neutral-900/60 border border-neutral-800">🧠</div>
+          <h2 class="text-2xl sm:text-3xl font-semibold">Skills</h2>
+        </div>
+        <div class="grid md:grid-cols-2 gap-5">
+          <div class="rounded-2xl border border-neutral-800 bg-neutral-900/40 p-5">
+            <h3 class="font-semibold mb-3">Core Competencies</h3>
+            <ul class="space-y-2 text-neutral-300 list-disc list-inside">
+              <li>Web App Pentesting (SQLi, XSS, IDOR)</li>
+              <li>Recon & Exploitation (Nmap, Metasploit)</li>
+              <li>Privilege Escalation (Linux)</li>
+              <li>Threat Research & Reporting</li>
+              <li>Scripting (Python, Bash)</li>
+              <li>Cloud & Containers (basic)</li>
+            </ul>
+          </div>
+          <div class="rounded-2xl border border-neutral-800 bg-neutral-900/40 p-5">
+            <h3 class="font-semibold mb-3">Tools & Platforms</h3>
+            <div class="flex flex-wrap gap-2 text-sm">
+              <span class="inline-flex items-center rounded-full border border-neutral-800 bg-neutral-900/40 px-3 py-1">Burp Suite</span>
+              <span class="inline-flex items-center rounded-full border border-neutral-800 bg-neutral-900/40 px-3 py-1">Nmap</span>
+              <span class="inline-flex items-center rounded-full border border-neutral-800 bg-neutral-900/40 px-3 py-1">Metasploit</span>
+              <span class="inline-flex items-center rounded-full border border-neutral-800 bg-neutral-900/40 px-3 py-1">Nikto</span>
+              <span class="inline-flex items-center rounded-full border border-neutral-800 bg-neutral-900/40 px-3 py-1">OpenVAS</span>
+              <span class="inline-flex items-center rounded-full border border-neutral-800 bg-neutral-900/40 px-3 py-1">Hydra</span>
+              <span class="inline-flex items-center rounded-full border border-neutral-800 bg-neutral-900/40 px-3 py-1">Wireshark</span>
+              <span class="inline-flex items-center rounded-full border border-neutral-800 bg-neutral-900/40 px-3 py-1">Gobuster</span>
+              <span class="inline-flex items-center rounded-full border border-neutral-800 bg-neutral-900/40 px-3 py-1">PhoneInfoga</span>
+              <span class="inline-flex items-center rounded-full border border-neutral-800 bg-neutral-900/40 px-3 py-1">Maltego</span>
+              <span class="inline-flex items-center rounded-full border border-neutral-800 bg-neutral-900/40 px-3 py-1">Kali Linux</span>
+              <span class="inline-flex items-center rounded-full border border-neutral-800 bg-neutral-900/40 px-3 py-1">THM / HTB</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="scroll-mt-24 py-16 sm:py-24">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="flex items-center gap-3 mb-6">
+          <div class="p-2 rounded-xl bg-neutral-900/60 border border-neutral-800">🧩</div>
+          <h2 class="text-2xl sm:text-3xl font-semibold">Projects & Case Studies</h2>
+        </div>
+        <div class="grid md:grid-cols-2 gap-5">
+          <div class="rounded-2xl border border-neutral-800 bg-neutral-900/40 p-5">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <h3 class="text-lg font-semibold">Phishing Simulation Framework</h3>
+                <div class="text-neutral-400 text-sm mb-2">2025 · Python · Flask · Email API · Analytics</div>
+              </div>
+            </div>
+            <p class="text-neutral-300 mt-2">End-to-end phishing simulation with click tracking, campaign analytics, and educational follow-ups.</p>
+            <p class="text-neutral-400 text-sm mt-2">Impact: Reduced repeat click-rates in pilot tests.</p>
+          </div>
+
+          <div class="rounded-2xl border border-neutral-800 bg-neutral-900/40 p-5">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <h3 class="text-lg font-semibold">Web App Pentest – Hack Yourself First</h3>
+                <div class="text-neutral-400 text-sm mb-2">2024 · Pentest · SQLi · XSS · Reporting</div>
+              </div>
+            </div>
+            <p class="text-neutral-300 mt-2">Performed SQLi & XSS against lab target; delivered structured report with PoC and mitigations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="scroll-mt-24 py-16 sm:py-24">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="flex items-center gap-3 mb-6">
+          <div class="p-2 rounded-xl bg-neutral-900/60 border border-neutral-800">🏅</div>
+          <h2 class="text-2xl sm:text-3xl font-semibold">Experience & Labs</h2>
+        </div>
+        <div class="space-y-4">
+          <div class="rounded-2xl border border-neutral-800 bg-neutral-900/40 p-5">
+            <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+              <div>
+                <div class="font-semibold">Security Researcher – Freelance / Labs</div>
+                <div class="text-neutral-400 text-sm">2023–2025</div>
+              </div>
+            </div>
+            <ul class="mt-3 list-disc list-inside text-neutral-300 space-y-2">
+              <li>CTFs: Wakanda (boot-to-root), Kioptrix-1 (root), MS17-010, Linux PrivEsc.</li>
+              <li>Web app assessments on training targets; reports & mitigation checklists.</li>
+              <li>VDPs focused on access control, session management, input validation.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="scroll-mt-24 py-16 sm:py-24">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="flex items-center gap-3 mb-6">
+          <div class="p-2 rounded-xl bg-neutral-900/60 border border-neutral-800">🎓</div>
+          <h2 class="text-2xl sm:text-3xl font-semibold">Education & Continuous Learning</h2>
+        </div>
+        <div class="grid md:grid-cols-2 gap-5">
+          <div class="rounded-2xl border border-neutral-800 bg-neutral-900/40 p-5">
+            <h3 class="font-semibold mb-2">Masters in Cyber Security — Digital University Kerala</h3>
+            <ul class="space-y-2 text-neutral-300 list-disc list-inside">
+              <li>Cryptography, Cyber Analytics, Digital Forensics</li>
+              <li>Database Security, AI for Cyber Security</li>
+              <li>Malware Analysis & Reverse Engineering</li>
+            </ul>
+          </div>
+          <div class="rounded-2xl border border-neutral-800 bg-neutral-900/40 p-5">
+            <h3 class="font-semibold mb-2">Certifications</h3>
+            <ul class="space-y-2 text-neutral-300 list-disc list-inside">
+              <li>Certified Cyber Security Analyst (2025)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="scroll-mt-24 py-16 sm:py-24">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="flex items-center gap-3 mb-6">
+          <div class="p-2 rounded-xl bg-neutral-900/60 border border-neutral-800">✉️</div>
+          <h2 class="text-2xl sm:text-3xl font-semibold">Contact</h2>
+        </div>
+        <div class="rounded-2xl border border-neutral-800 bg-neutral-900/40 p-5">
+          <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+            <div class="text-neutral-300">
+              Ready to collaborate on assessments, automation, or research.
+            </div>
+            <div class="flex gap-2">
+              <a id="emailBtn" href="#" class="inline-flex items-center gap-2 rounded-xl border border-neutral-800 px-3 py-2 hover:bg-neutral-900/60">Email me</a>
+              <a id="resumeBtn2" href="#" class="inline-flex items-center gap-2 rounded-xl border border-neutral-800 px-3 py-2 hover:bg-neutral-900/60">Resume</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-12 border-t border-neutral-900">
+      <div class="max-w-6xl mx-auto px-4 text-sm text-neutral-500 flex items-center justify-between">
+        <div>© <span id="year"></span> Akshay. All rights reserved.</div>
+        <div class="flex gap-3">
+          <a id="githubFoot" href="#" class="hover:text-neutral-300">GitHub</a>
+          <a id="linkedinFoot" href="#" class="hover:text-neutral-300">LinkedIn</a>
+          <a id="emailFoot" href="#" class="hover:text-neutral-300">Email</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- CONFIG: EDIT ONLY THESE VALUES -->
+    <script>
+      const CONFIG = {
+        resumeUrl: "https://pdfhost.io/v/your-public-pdf-id", // use a PUBLIC view link, not an edit link
+        email: "akshaychenthamara@gmail.com",
+        github: "https://github.com/akshay127001",
+        linkedin: "https://www.linkedin.com/in/akshay-c-a19252210"
+      };
+    </script>
+
+    <!-- Wire up links -->
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+      const setHref = (id, url) => { const el = document.getElementById(id); if (el) el.href = url; };
+      setHref('resumeBtn', CONFIG.resumeUrl);
+      setHref('resumeBtn2', CONFIG.resumeUrl);
+      setHref('githubLink', CONFIG.github);
+      setHref('linkedinLink', CONFIG.linkedin);
+      setHref('emailLink', `mailto:${CONFIG.email}`);
+      setHref('emailBtn', `mailto:${CONFIG.email}`);
+      setHref('githubFoot', CONFIG.github);
+      setHref('linkedinFoot', CONFIG.linkedin);
+      setHref('emailFoot', `mailto:${CONFIG.email}`);
+    </script>
+  </body>
+</html>
